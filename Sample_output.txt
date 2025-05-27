@@ -1,0 +1,103 @@
+=== AR System Menu ===
+1. Add AR Object
+...
+Enter your choice (1-11): 1
+Enter object ID: A1
+Enter object name: Sofa
+Enter proximity (lower is closer): 3
+Enter visibility (higher is better): 7
+Enter interaction potential (higher is better): 5
+Added AR Object: ARObject(A1, Sofa, priority=15.0)
+
+Enter your choice (1-11): 1
+Enter object ID: A2
+Enter object name: Lamp
+Enter proximity (lower is closer): 2
+Enter visibility (higher is better): 6
+Enter interaction potential (higher is better): 4
+Added AR Object: ARObject(A2, Lamp, priority=12.0)
+
+Enter your choice (1-11): 3
+Highest priority object: ARObject(A2, Lamp, priority=12.0)
+
+Enter your choice (1-11): 1
+Enter object ID: A3
+Enter object name: Table
+Enter proximity (lower is closer): 1
+Enter visibility (higher is better): 9
+Enter interaction potential (higher is better): 8
+Added AR Object: ARObject(A3, Table, priority=18.0)
+
+Enter your choice (1-11): 2
+Enter object ID to update: A2
+Select update type:
+1. Update priority attributes
+2. Update position and constraints
+Enter choice (1-2): 1
+Enter new proximity: 2
+Enter new visibility: 6
+Enter new interaction potential: 5
+Object updated successfully
+
+Enter your choice (1-11): 2
+Enter object ID to update: A3
+Select update type:
+1. Update priority attributes
+2. Update position and constraints
+Enter choice (1-2): 2
+Enter new X position: 3
+Enter new Y position: 7
+Enter new Z position: 5
+Enter new minimum distance constraint: 1
+Object updated successfully
+
+Enter your choice (1-11): 1
+Enter object ID: A4
+Enter object name: Rug
+Enter proximity (lower is closer): 6
+Enter visibility (higher is better): 6
+Enter interaction potential (higher is better): 3
+Added AR Object: ARObject(A4, Rug, priority=15.0)
+
+Enter your choice (1-11): 4
+Enter object ID to find: A2
+Available objects: ['A1', 'A2', 'A3', 'A4']
+Object found:
+ID: A2
+Name: Lamp
+
+Enter your choice (1-11): 5
+Enter object ID to remove: A1
+Object removed if it existed
+
+Enter your choice (1-11): 6
+{'A2': ARObject(A2, Lamp, priority=13.0), 'A3': ARObject(A3, Table, priority=18.0), 'A4': ARObject(A4, Rug, priority=15.0)}
+
+Enter your choice (1-11): 7
+A2
+A3
+A4
+
+Enter your choice (1-11): 8
+Enter object ID: A5
+Enter object name: TV
+Enter X position: 10
+Enter Y position: 10
+Enter Z position: 10
+Enter width: 2
+Enter height: 2
+Enter depth: 2
+Enter minimum distance from other objects: 2
+Added constrained AR Object: ARObjectConstraints(A5, TV, pos=(10.0, 10.0, 10.0))
+
+Enter your choice (1-11): 9
+Enter first object ID: A1
+Enter second object ID: A5
+One or both objects not found
+
+Enter your choice (1-11): 10
+Enter object ID to check constraints: A5
+All constraints are satisfied
+
+Enter your choice (1-11): 11
+Exiting AR System...

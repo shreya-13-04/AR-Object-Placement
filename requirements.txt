@@ -1,0 +1,12 @@
+# No external libraries needed for current CLI version.
+# Python Standard Library only.
+
+# Optional: Add dependencies if extending the project.
+# e.g., for visualization or GUI support:
+# matplotlib==3.8.0
+# numpy==1.26.0
+# PyQt5==5.15.10
+
+# Development tools (optional)
+# pytest==8.1.1
+# black==24.3.0
