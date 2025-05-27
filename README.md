@@ -25,13 +25,13 @@ This CLI-based simulation mimics an AR backend system that handles:
 
 ## 📂 Project Structure
 
-
-📁 AR-Object-Placement
-│
-├── FINALDSAPROJECT.py        # Main CLI application
-├── sample_input.txt          # Test input that covers all features
-├── sample_output.txt         # Output for the test input
-├── README.md                 # Project documentation
+```plaintext
+AR-Object-Placement/
+├── FINALDSAPROJECT.py     # Main CLI application
+├── sample_input.txt       # Test input that covers all features
+├── sample_output.txt      # Output for the test input
+├── README.md              # Project documentation
+├── requirements.txt       # Project dependencies (optional/future use)
 
 ## How to Run
 
@@ -41,7 +41,7 @@ python FINALDSAPROJECT.py < sample_input.txt > sample_output.txt
 ```
 ## 🧾 Features Covered in Menu
 
-| Option | Feature Description                                  |
+| Choice | Feature Description                                  |
 |--------|------------------------------------------------------|
 |   1    | Add AR object (priority-based)                       |
 |   2    | Update object attributes or spatial constraints      |
