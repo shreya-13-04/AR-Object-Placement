@@ -32,6 +32,7 @@ AR-Object-Placement/
 ├── sample_output.txt      # Output for the test input
 ├── README.md              # Project documentation
 ├── requirements.txt       # Project dependencies (optional/future use)
+```
 
 ## How to Run
 
