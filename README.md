@@ -25,7 +25,7 @@ This CLI-based simulation mimics an AR backend system that handles:
 
 ## 📂 Project Structure
 
-```plaintext
+
 📁 AR-Object-Placement
 │
 ├── FINALDSAPROJECT.py        # Main CLI application
@@ -60,7 +60,7 @@ Option	Description
 - Collision & Constraint Checks: O(n)
 
 ## 👩‍💻 Author
-Shreya
+Shreya - 
 3rd Year Engineering Student | Data Science Enthusiast | AR & AI Projects
 
 This project was developed as a collaborative effort by a 👥 team of 6 engineering students as part of our Data Structures and Algorithms course.
