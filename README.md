@@ -40,18 +40,22 @@ python FINALDSAPROJECT.py < sample_input.txt > sample_output.txt
 
 ```
 ## 🧾 Features Covered in Menu
-Option	Description
-1	Add AR object (priority-based)
-2	Update object attributes or spatial constraints
-3	View object with highest priority
-4	Search object by ID
-5	Remove AR object
-6	Display all AR objects in scene
-7	Render AR objects in sorted priority
-8	Add object with 3D position and constraints
-9	Detect collisions between two objects
-10	Check if object satisfies constraints
-11	Exit the program
+
+| Option | Feature Description                                  |
+|--------|------------------------------------------------------|
+|   1    | Add AR object (priority-based)                       |
+|   2    | Update object attributes or spatial constraints      |
+|   3    | View object with highest priority                    |
+|   4    | Search object by ID                                  |
+|   5    | Remove AR object                                     |
+|   6    | Display all AR objects in scene                      |
+|   7    | Render AR objects in sorted priority                 |
+|   8    | Add object with 3D position and constraints          |
+|   9    | Detect collisions between two objects                |
+|  10    | Check if object satisfies constraints                |
+|  11    | Exit the program                                     |
+
+
 
 ## 🧠 Algorithms in Use
 
